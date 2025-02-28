@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Indecision Books - Home</title>
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #fdfdfd;
+      background: linear-gradient(135deg, #013220, #000000);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+    }
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    a {
+      color: #d4af37; /* Gold accent */
+      text-decoration: none;
+    }
+    header, footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    /* Main Section */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+    .images img {
+      max-width: 200px;
+      height: auto;
+      border: 5px solid #d4af37;
+      border-radius: 10px;
+    }
+    .content-text {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+    .founder {
+      margin-top: 20px;
+      font-style: italic;
+      color: #d4af37;
+    }
+    /* Navigation */
+    nav a {
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    @media (max-width: 600px) {
+      .images {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Indecision Books</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <div class="images">
+      <!-- Replace the src attributes with your actual image URLs -->
+      <img src="gold-book.png" alt="Gold Book">
+      <img src="gold-tree-of-life.png" alt="Gold Tree of Life">
+    </div>
+    
+    <div class="content-text">
+      <p>
+        Need space and have books that you have read and are finished? Here at Indecision Books we are looking to keep your books from holding much needed space or worse ending up in the bin. Speak to us and we can arrange a good time and come to you and give a no obligation price and free up the space and you can have the peace of mind in knowing that your books are going to a fellow reader.
+      </p>
+      <p class="founder">– Martin Allen, Indecision Books Founder</p>
+    </div>
+  </div>
+  
+  <footer>
+    <p>&copy; 2025 Indecision Books. All rights reserved.</p>
+  </footer>
+</body>
+</html>
